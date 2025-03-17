@@ -27,6 +27,6 @@ zshrc_backup="$backup_dir/.zshrc.bkp_$timestamp"
 
 # Realizar os backups
 backup_file "$zshrc" "$zshrc_backup"
-#backup_file "$samba_conf" "$samba_conf_backup"
+#backup_file "$samba_conf" "$samba_conf_backup" - Descomentar essa linha se desejar fazer backup da configuração do Samba
 
 echo "Backup finalizado!"
